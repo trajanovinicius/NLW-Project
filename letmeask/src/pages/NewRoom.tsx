@@ -27,7 +27,7 @@ export function NewRoom() {
       title: newRoom,
       authorId: user?.id,
     });
-    history.push(`{./rooms/${fireBaseRoom.key}`);
+    history.push(`/rooms/${fireBaseRoom.key}`);
   }
 
   return (
